@@ -7,6 +7,19 @@
     <groupId>com.suke</groupId>
     <artifactId>hystrix</artifactId>
     <version>1.0.0</version>
+    <packaging>pom</packaging>
 
+    <modules>
+        <module>hystrix-core</module>
+    </modules>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 
 </project>
